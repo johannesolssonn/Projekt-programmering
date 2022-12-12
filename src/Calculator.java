@@ -1,8 +1,8 @@
 /**
- * In the class calculator below i call the different metods and prints out input,output and result.
+ * In the class calculator below i call the different metods and prints out input,output,operations and result.
  * @author Johannes Olsson
  */
-public class calculator {
+public class Calculator {
     public static void main(String[] args) {
         int choice;
         double num1;
@@ -19,7 +19,7 @@ public class calculator {
          */
 
         choice = Input.getOperations();
-        System.out.println();
+
 
         /**
          * calls the metod getNumber and class Input and then prints out first number
